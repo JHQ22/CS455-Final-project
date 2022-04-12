@@ -19,6 +19,7 @@ Link of the QR code: https://snack.expo.dev/@hjf279/8cf234
  The json file for App.js
 -package.json
  The json file that include all the library of this program.
+-babel.config.js
 # Features list
 This program include the following features:
 -Island Tokens: Information of "Island Tokens"(Items in game Lost Ark)
