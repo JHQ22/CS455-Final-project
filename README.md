@@ -30,6 +30,8 @@ This program include the following features:
 -Ignea Tokens: Information of "Island Tokens"(Items in game Lost Ark)
 -World Tree Leaves: Information of "Island Tokens"(Items in game Lost Ark)
 -Omnium Stars: Information of "Island Tokens"(Items in game Lost Ark)
+# Visuals
+![5945e99e6aff441d8b49c6118317a16](https://user-images.githubusercontent.com/103446557/162885595-93ce78d6-101a-495d-b5f6-cbec3c788ae2.jpg)
 # Copyright information
 This program is public and anyone can download or rewrite it.
 # Contact information
