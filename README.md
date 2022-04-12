@@ -40,7 +40,7 @@ This program is public and anyone can download or rewrite it.
 If you have any questions, you are welcome to contact me by email: hjf279@uregina.ca
 # Bug list
 -react-native-drawer and react-navigation are incompatible.
-json file upload error
+-json file upload error
 # Troubleshooting tips
 Sometimes the QRcode will not working propriate，you may want to restart the Expo Go.
 # Credits and acknowledgments
