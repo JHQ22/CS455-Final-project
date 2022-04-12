@@ -4,12 +4,11 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import SideMenu from 'react-native-side-menu';
 
-
 function MainPage({navigation}){
   return(
     <View style={styles.container}>
-    <Text style={styles.text}>Weclome to Lost Ark Wiki！</Text>
-    <Button title="Island Tokens" onPress={()=> navigation.navigate('Island Tokens')} />
+    <Text style={styles.text1}>Weclome to Lost Ark Wiki！</Text>
+    <Button title="Island Tokens" onPress={()=> navigation.navigate('Island Tokens')}/>
     <Button title="MoKoKo Seeds" onPress={()=> navigation.navigate('MoKoKo Seeds')} />
     <Button title="Giant’s Hearts" onPress={()=> navigation.navigate('Giant’s Hearts')} />
     <Button title="Master Pieces" onPress={()=> navigation.navigate('Master Pieces')} />
@@ -25,10 +24,13 @@ function IslandTokens({navigation}){
   const[text, setText] = React.useState("");
   return(
     <View style={styles.container}>
-    <Text style={styles.text}>Island Tokens</Text>
-    <Button title="Go to Home" onPress={()=>navigation.navigate('Main')} />
-    <Button title="Go Back" onPress={()=>navigation.goBack()} />
-    <Button title="Go back to first screen in stack" onPress={() => navigation.popToTop()}/>
+    <Text style={styles.text1}>Island Tokens</Text>
+    <Text style={styles.text1}>There are 95 Island Tokens in total, players can get those Tokens by sailling</Text>
+    <Text> </Text><Text> </Text> <Text> </Text> <Text> </Text> <Text> </Text> <Text> </Text> <Text> </Text> <Text> </Text><Text> 
+    </Text><Text> </Text><Text> </Text><Text> </Text><Text> </Text><Text> </Text><Text> </Text><Text> </Text><Text> </Text><Text> 
+    </Text><Text> </Text><Text> </Text>
+    <Button style={styles.button} title="Back" onPress={()=>navigation.goBack()} />
+    <Button title="Go to Home Page" onPress={() => navigation.popToTop()}/>
     </View>
   
   )
@@ -37,11 +39,13 @@ function MoKoKoSeeds({navigation}){
   const[text, setText] = React.useState("");
   return(
     <View style={styles.container}>
-    <Text  style={styles.text}>MoKoKo Seeds</Text>
-    
-    <Button title="Go to Home" onPress={()=>navigation.navigate('Main')} />
+    <Text  style={styles.text1}>MoKoKo Seeds</Text>
+    <Text style={styles.text1}>There are 1251 MoKoKo Seeds in total, players can get those Seeds by Expedition on the Continents</Text>
+    <Text> </Text><Text> </Text> <Text> </Text> <Text> </Text> <Text> </Text> <Text> </Text> <Text> </Text> <Text> </Text><Text> 
+    </Text><Text> </Text><Text> </Text><Text> </Text><Text> </Text><Text> </Text><Text> </Text><Text> </Text><Text> </Text><Text> 
+    </Text><Text> </Text><Text> </Text>
     <Button title="Go Back" onPress={()=>navigation.goBack()} />
-    <Button title="Go back to first screen in stack" onPress={() => navigation.popToTop()}/>
+    <Button title="Go to Home Page" onPress={() => navigation.popToTop()}/>
     </View>
   
   )
@@ -50,10 +54,13 @@ function GiantHearts({navigation}){
   const[text, setText] = React.useState("");
   return(
     <View style={styles.container}>
-    <Text  style={styles.text}>Giant Hearts</Text>
-    <Button title="Go to Home" onPress={()=>navigation.navigate('Main')} />
+    <Text  style={styles.text1}>Giant Hearts</Text>
+    <Text style={styles.text1}>There are 15 Giant Hearts in total, players can get those Giant Hearts by Expedition on the Continents</Text>
+    <Text> </Text><Text> </Text> <Text> </Text> <Text> </Text> <Text> </Text> <Text> </Text> <Text> </Text> <Text> </Text><Text> 
+    </Text><Text> </Text><Text> </Text><Text> </Text><Text> </Text><Text> </Text><Text> </Text><Text> </Text><Text> </Text><Text> 
+    </Text><Text> </Text><Text> </Text>
     <Button title="Go Back" onPress={()=>navigation.goBack()} />
-    <Button title="Go back to first screen in stack" onPress={() => navigation.popToTop()}/>
+    <Button title="Go to Home Page" onPress={() => navigation.popToTop()}/>
     </View>
   )
 }
@@ -61,10 +68,13 @@ function MasterPieces({navigation}){
   const[text, setText] = React.useState("");
   return(
     <View style={styles.container}>
-    <Text style={styles.text}>Master Pieces</Text>
-    <Button title="Go to Home" onPress={()=>navigation.navigate('Main')} />
+    <Text style={styles.text1}>Master Pieces</Text>
+    <Text style={styles.text1}>There are 46 Master Pieces in total, players can get those Master Pieces by Complete missions and dungeons</Text>
+    <Text> </Text><Text> </Text> <Text> </Text> <Text> </Text> <Text> </Text> <Text> </Text> <Text> </Text> <Text> </Text><Text> 
+    </Text><Text> </Text><Text> </Text><Text> </Text><Text> </Text><Text> </Text><Text> </Text><Text> </Text><Text> </Text><Text> 
+    </Text><Text> </Text><Text> </Text>
     <Button title="Go Back" onPress={()=>navigation.goBack()} />
-    <Button title="Go back to first screen in stack" onPress={() => navigation.popToTop()}/>
+    <Button title="Go to Home Page" onPress={() => navigation.popToTop()}/>
     </View>
   )
 }
@@ -72,10 +82,13 @@ function SeaBounty({navigation}){
   const[text, setText] = React.useState("");
   return(
     <View style={styles.container}>
-    <Text  style={styles.text}>Sea Bounty</Text>
-    <Button title="Go to Home" onPress={()=>navigation.navigate('Main')} />
+    <Text  style={styles.text1}>Sea Bounty</Text>
+    <Text style={styles.text1}>There are 50 Sea Bounty in total, players can get those Sea Bounty by sailling</Text>
+    <Text> </Text><Text> </Text> <Text> </Text> <Text> </Text> <Text> </Text> <Text> </Text> <Text> </Text> <Text> </Text><Text> 
+    </Text><Text> </Text><Text> </Text><Text> </Text><Text> </Text><Text> </Text><Text> </Text><Text> </Text><Text> </Text><Text> 
+    </Text><Text> </Text><Text> </Text>
     <Button title="Go Back" onPress={()=>navigation.goBack()} />
-    <Button title="Go back to first screen in stack" onPress={() => navigation.popToTop()}/>
+    <Button title="Go to Home Page" onPress={() => navigation.popToTop()}/>
     </View>
   )
 }
@@ -83,10 +96,13 @@ function IgneaTokens({navigation}){
   const[text, setText] = React.useState("");
   return(
     <View style={styles.container}>
-    <Text  style={styles.text}>Ignea Tokens</Text>
-    <Button title="Go to Home" onPress={()=>navigation.navigate('Main')} />
+    <Text  style={styles.text1}>Ignea Tokens</Text>
+    <Text style={styles.text1}>There are 14 Ignea Tokens in total, players can get those Ignea Tokens by complete the Adventure Tome</Text>
+    <Text> </Text><Text> </Text> <Text> </Text> <Text> </Text> <Text> </Text> <Text> </Text> <Text> </Text> <Text> </Text><Text> 
+    </Text><Text> </Text><Text> </Text><Text> </Text><Text> </Text><Text> </Text><Text> </Text><Text> </Text><Text> </Text><Text> 
+    </Text><Text> </Text><Text> </Text>
     <Button title="Go Back" onPress={()=>navigation.goBack()} />
-    <Button title="Go back to first screen in stack" onPress={() => navigation.popToTop()}/>
+    <Button title="Go to Home Page" onPress={() => navigation.popToTop()}/>
     </View>
   )
 }
@@ -94,10 +110,14 @@ function WorldTreeLeaves({navigation}){
   const[text, setText] = React.useState("");
   return(
     <View style={styles.container}>
-    <Text  style={styles.text}>World Tree Leaves</Text>
-    <Button title="Go to Home" onPress={()=>navigation.navigate('Main')} />
+    <Text  style={styles.text1}>World Tree Leaves</Text>
+    <Text style={styles.text1}>There are 60 World Tree Leaves in total, players can get those World Tree Leaves by trade system
+    </Text>
+    <Text> </Text><Text> </Text> <Text> </Text> <Text> </Text> <Text> </Text> <Text> </Text> <Text> </Text> <Text> </Text><Text> 
+    </Text><Text> </Text><Text> </Text><Text> </Text><Text> </Text><Text> </Text><Text> </Text><Text> </Text><Text> </Text><Text> 
+    </Text><Text> </Text><Text> </Text>
     <Button title="Go Back" onPress={()=>navigation.goBack()} />
-    <Button title="Go back to first screen in stack" onPress={() => navigation.popToTop()}/>
+    <Button title="Go to Home Page" onPress={() => navigation.popToTop()}/>
     </View>
   )
 }
@@ -105,10 +125,13 @@ function OmniumStars({navigation}){
   const[text, setText] = React.useState("");
   return(
     <View style={styles.container}>
-    <Text  style={styles.text}>Omnium Stars</Text>
-    <Button title="Go to Home" onPress={()=>navigation.navigate('Main')} />
+    <Text  style={styles.text1}>Omnium Stars</Text>
+    <Text style={styles.text1}>There are 5 Omnium Stars in total, players can get those Omnium Stars by Complete missions and dungeons</Text>
+    <Text> </Text><Text> </Text> <Text> </Text> <Text> </Text> <Text> </Text> <Text> </Text> <Text> </Text> <Text> </Text><Text>
+    </Text><Text> </Text><Text> </Text><Text> </Text><Text> </Text><Text> </Text><Text> </Text><Text> </Text><Text> </Text><Text> 
+    </Text><Text> </Text><Text> </Text>
     <Button title="Go Back" onPress={()=>navigation.goBack()} />
-    <Button title="Go back to first screen in stack" onPress={() => navigation.popToTop()}/>
+    <Button title="Go to Home Page" onPress={() => navigation.popToTop()}/>
     </View>
   )
 }
@@ -131,15 +154,19 @@ function App(){
   );
 }
 export default App;
+
 const styles = StyleSheet.create({
   container:{
         marginTop:10,
      },
-  text:{
+  text1:{
         height: 100,
         textAlign:'center', 
      },
-   
+  button:{
+        height: 200,
+        marginTop:300, 
+     },
 });
 
  
